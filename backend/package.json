@@ -5,6 +5,9 @@
   "author": "",
   "private": true,
   "license": "MIT",
+  "workspaces": [
+    "services/*"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "bash ./scripts/build.sh",
@@ -23,10 +26,8 @@
     "test:integration": "jest --config ./tests/integration/jest-integration.json",
     "test:service": "bash ./scripts/test.sh"
   },
-  "workspaces": [
-    "apps/*",
-    "libs/*"
-  ],
+  "dependencies": {},
+  "devDependencies": {},
   "jest": {
     "moduleFileExtensions": [
       "js",
