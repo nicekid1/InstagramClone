@@ -1,0 +1,17 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nestjs": "^0.0.1"
+  }
+}
